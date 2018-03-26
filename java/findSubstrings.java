@@ -40,10 +40,6 @@ String[] findSubstrings(String[] words, String[] parts) {
                 position = index;
                 length = part.length();
                 match = part;
-            } else {
-                if (part.length() != length) {
-                    break;
-                }
             }
         }
         if (length != -1) {
